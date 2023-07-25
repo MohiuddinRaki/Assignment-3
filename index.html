@@ -10,6 +10,7 @@
     <!-- font size link from google fonts -->
 
     <!-- Icon link From Font Awesome -->
+    <script src="https://kit.fontawesome.com/a4f0e04f91.js" crossorigin="anonymous"></script>
     
     <!-- Customize Color Link from Tailwind -->
       <script>
@@ -29,6 +30,43 @@
     </style>
 </head>
 <body>
+  <header>
+    <!-- Navbar section start here -->
+    <section class="">
+      <div class="lg:bg-[#F85559] lg:text-white mx-60 mt-12 lg:w-[1440px] py-8 px-12 flex flex-row-reverse lg:flex-row items-center justify-evenly rounded-[600px]">
+          <div class="dropdown text-lg font-medium">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All Fruits</a></li>
+          </ul>
+        </div>
+    </div>
+      <div class="flex items-center mr-44 lg:ml-40 gap-4 w-64">
+        <img src="images/logo.png" alt="">
+        <a class="normal-case font-bold text-4xl">Fruit Burst</a>
+      </div>
+          <div class="hidden lg:flex">
+            <div class=" btn gap-52 rounded-[50px]">
+            <a class="font-light normal-case">Search here</a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+      </div>
+    </section>
+  
+  </header>
     
 </body>
 </html>
